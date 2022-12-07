@@ -1,0 +1,18 @@
+{
+  "name": "diary-bot",
+  "version": "1.0.0",
+  "description": "diary-bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.60.0",
+    "nodemon": "^2.0.20"
+  },
+  "type":"module",
+  "author": "Nikita Obedkov",
+  "license": "ISC"
+}
